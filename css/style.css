@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+* ! Стилі обнулення */ *,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+body {
+	color: #9A9A9A;
+	font-family: 'Lato', sans-serif;
+}
+
+/*! ------------------------ */
+
+.header {}
+
+.menu {}
+
+.menu__list {}
+
+.menu__link {}
+
+.main {}
+
+.block_introducing {}
+
+.introducing {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #222831;
+}
+
+.introducing__title {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 67px;
+	color: #10375C;
+}
+.introducing__title span {
+	
+	color: #DD2C00;
+}
+
+.introducing__text {}
+
+.form {}
+
+.form__choice {}
+
+.slider__room {}
+
+.room {}
+
+.footer {}
